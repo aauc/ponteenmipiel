@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Homemade+Apple:400|Amatic+SC:400);
+
+* { margin: 0; padding: 0; }
+
+html { 
+  background: url(/images/ponte-en-mi-piel-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  color: #eee;
+}
+
+.support-note { display: none; }
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0;
+}
+
+.main {
+  position: absolute;
+  background: none;
+  top: 35%;
+  font-family: 'Amatic SC', Helvetica, Calibri, Arial, sans-serif;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.main h1 {
+  font-family: 'Homemade Apple', Helvetica, Calibri, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media only screen and (max-width : 500px) {
+  .main h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  .main h1 {
+    font-size: 2em;
+  }
+}
+
+.main ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main ul li {
+  padding: 1em;
+  font-size: 1.2em;
+  display: inline;
+}
+
+footer {
+  font-family: Helvetica, Calibri, Arial, sans-serif;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.5em;
+}
