@@ -74,6 +74,28 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  text-align: left;
   margin-bottom: 0.5em;
+}
+
+footer div:first-of-type {
+  text-align: left;
+  width: 50%;
+  float: left;
+}
+
+footer div:first-of-type img {
+  height: 32px;
+}
+
+footer div:last-of-type {
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+
+footer img {
+  height: 20px;
+  vertical-align: text-bottom;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
 }

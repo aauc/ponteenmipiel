@@ -66,9 +66,10 @@ a:hover {
 }
 
 .main > header img {
+    border-radius: 10px;
 	float: right;
-	height: 4em;
-	margin-top: 0.5em;
+	height: 80px;
+    margin: 0.5em;
 }
 
 .info,
@@ -103,14 +104,14 @@ a:hover {
     font-size: 2em;
   }
   .main > header img {
-    height: 3em;
+    height: 50px;
   }
   .info {
   	font-size: 0.8em;
   }
 }
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 530px) {
   .main > header h1 {
     clear: both;
     width: 100%;
